@@ -1,0 +1,126 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[a4paper,margin=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*,itemsep=1pt,topsep=2pt}
+
+\definecolor{sidebarbg}{HTML}{E9EDF3}
+\definecolor{accent}{HTML}{4D78A8}
+\definecolor{textdark}{HTML}{1F2A44}
+\definecolor{textmuted}{HTML}{5F6B7A}
+
+\newcommand{\leftsection}[1]{%
+    \vspace{8pt}
+    {\color{textdark}\bfseries #1}\\[-2pt]
+    {\color{accent}\rule{\linewidth}{0.8pt}}\vspace{3pt}
+}
+
+\newcommand{\rightsection}[1]{%
+    \vspace{6pt}
+    {\color{textdark}\large\bfseries #1}\\[-2pt]
+    {\color{accent}\rule{\linewidth}{0.8pt}}\vspace{4pt}
+}
+
+\begin{document}
+
+\noindent
+\begin{minipage}[t][0.95\textheight][t]{0.34\textwidth}
+\colorbox{sidebarbg}{
+\begin{minipage}[t][0.95\textheight][t]{\dimexpr\linewidth-2\fboxsep\relax}
+\vspace{10pt}
+
+\begin{center}
+\begin{tikzpicture}
+    \clip (0,0) circle (1.6cm);
+    \node at (0,0) {\includegraphics[width=3.3cm]{IMG_2658.PNG}};
+    \draw[accent, line width=1pt] (0,0) circle (1.6cm);
+\end{tikzpicture}
+
+{\fontsize{14}{16}\selectfont\bfseries\color{accent}MD. DIDARUL ALAM}\\[2pt]
+{\fontsize{18}{20}\selectfont\bfseries\color{accent}SWAPNIL}\\[4pt]
+\end{center}
+
+\leftsection{Contact}
+{\small
+Phone: +8801842581141\\
+Email: \href{mailto:lynxswapnil@gmail.com}{lynxswapnil@gmail.com}\\
+Chittagong, Bangladesh\\
+LinkedIn: \href{https://www.linkedin.com/in/didarul-alam-swapnil/}{didarul-alam-swapnil}\\
+GitHub: \href{https://github.com/Lynx-Swapnil}{Lynx-Swapnil}
+}
+
+\leftsection{About Me}
+{\small\color{textmuted}
+CSE graduate and ERP intern with a strong interest in software engineering, enterprise systems, and web development. Focused on building practical skills and delivering reliable solutions.
+}
+
+\leftsection{Soft Skills}
+{\small
+\begin{itemize}
+    \item Communication
+    \item Teamwork
+    \item Documentation
+    \item Time Management
+    \item Teaching
+\end{itemize}
+}
+
+\leftsection{Languages}
+{\small English (Professional)\\Bangla (Native)}
+
+\vfill
+\end{minipage}
+}
+\end{minipage}
+\hfill
+\begin{minipage}[t][0.95\textheight][t]{0.62\textwidth}
+
+\rightsection{Professional Summary}
+{\small
+Computer Science and Engineering graduate and current ERP Intern at Four H Group with hands-on experience in enterprise systems, SQL/Oracle, user support, and cross-functional workflow improvement. Seeking a first full-time entry-level Software Engineer or IT role.
+}
+
+\rightsection{Experience}
+\textbf{ERP Intern, IT Department}\\
+{\small Four H Group, Chittagong, Bangladesh \hfill Feb 2026 -- Present}
+\begin{itemize}
+    \item Support ERP modules for operations, workflow management, and reporting.
+    \item Assist with documentation, data validation, and SQL/Oracle database tasks.
+    \item Provide end-user support and collaborate across teams to resolve system issues.
+\end{itemize}
+
+\rightsection{Education}
+	extbf{B.Sc. in Computer Science and Engineering (CSE)}\\
+{\small International Islamic University Chittagong (IIUC) \hfill CGPA: 3.2}
+
+\rightsection{Technical Skills}
+\begin{itemize}
+    \item \textbf{Languages:} JavaScript, C, C++, PHP, Python, Java (Basic), SQL
+    \item \textbf{Frameworks and Web:} React, Next.js, Tailwind CSS, DaisyUI, HTML, CSS, Laravel; learning Express.js
+    \item \textbf{Databases:} Oracle (Basic), MongoDB
+    \item \textbf{Enterprise Systems:} ERP module support, report generation, data validation, end-user support
+    \item \textbf{Core CS and Hardware:} Web development, networking, microprocessor fundamentals, Arduino projects
+    \item \textbf{Tools and Platforms:} Git, GitHub, LaTeX, MS Office, Netlify, Vercel
+\end{itemize}
+
+\rightsection{Problem Solving Profiles}
+\begin{itemize}
+    \item Codeforces: 473+ problems solved
+    \item UVA: 50+ problems solved
+    \item Beecrowd: 84+ problems solved
+    \item AtCoder: 93+ problems solved
+\end{itemize}
+
+\end{minipage}
+
+\end{document}
