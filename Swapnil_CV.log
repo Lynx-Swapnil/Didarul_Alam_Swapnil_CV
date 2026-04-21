@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.7)  15 APR 2026 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.20)  21 APR 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -715,7 +715,7 @@ Package rerunfilecheck Info: File `Swapnil_CV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  20006 strings out of 467871
- 377292 string characters out of 5418861
+ 377292 string characters out of 5418860
  781901 words of memory out of 5000000
  48578 multiletter control sequences out of 15000+600000
  659204 words of font info for 53 fonts, out of 8000000 for 9000
@@ -726,7 +726,7 @@ Here is how much of TeX's memory you used:
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C
 :/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/
 Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
-Output written on Swapnil_CV.pdf (1 page, 3409305 bytes).
+Output written on Swapnil_CV.pdf (1 page, 3409322 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
