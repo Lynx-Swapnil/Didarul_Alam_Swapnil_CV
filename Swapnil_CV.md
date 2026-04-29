@@ -1,4 +1,4 @@
-![Profile Photo](IMG_2658.PNG)
+![Profile Photo](formal--passport-size.PNG)
 
 # MD. DIDARUL ALAM SWAPNIL
 
